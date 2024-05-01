@@ -1,0 +1,802 @@
+[
+  {
+    "Substance": "Actaparoxetine [Amp]",
+    "Treats:": "Sanity 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 400,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Actaparoxetine [Tab]",
+    "Treats:": "Sanity 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 40,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Active Carbon",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 60,
+    "Overdose": 0,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Actovegin",
+    "Treats:": "Concussion",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 0,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Adepress",
+    "Treats:": "Sanity 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 70,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Aertal",
+    "Treats:": "Pain 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 1300,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Agteminol",
+    "Treats:": "Sanity 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 60,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Amibactam",
+    "Treats:": "Cold 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.15,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Aminocaproic Acid",
+    "Treats:": "Blood Clotting",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.3,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Amitriptyline [Amp]",
+    "Treats:": "Sanity 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.5,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Amitriptyline [Tab]",
+    "Treats:": "Sanity 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 100,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Amoxiclav",
+    "Treats:": "Concussion",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 0,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Amoxiklav",
+    "Treats:": "Cold 2",
+    "Type": "Tablet",
+    "Recovery (Secs)": 1200,
+    "Overdose": 0.25,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Amoxivan [Amp]",
+    "Treats:": "Cold 3 / Sepsis",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1400,
+    "Overdose": 0.6,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Amoxivan [Inject]",
+    "Treats:": "Cold 3 / Sepsis",
+    "Type": "Injector",
+    "Recovery (Secs)": 1800,
+    "Overdose": 0.6,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Amoxivan [Tab]",
+    "Treats:": "Cold 2",
+    "Type": "Tablet",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.28,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Ampicillin",
+    "Treats:": "Cold 2",
+    "Type": "Tablet",
+    "Recovery (Secs)": 900,
+    "Overdose": 0.23,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Analgin",
+    "Treats:": "Pain 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "B-190",
+    "Treats:": "Radiation Sickness 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 140,
+    "Overdose": 0.3,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Capsaicin",
+    "Treats:": "Hematoma",
+    "Type": "Salve",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.01,
+    "Exp Gain": 0
+  },
+  {
+    "Substance": "Carboxyme",
+    "Treats:": "Radiation Sickness 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.6,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Ceftriaxone",
+    "Treats:": "Cold 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Cerucal",
+    "Treats:": "Food Poison 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Cilaspen",
+    "Treats:": "Cold 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Cystamine",
+    "Treats:": "Radiation Sickness 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 120,
+    "Overdose": 0.3,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Cytramon",
+    "Treats:": "Pain 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 400,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Dicinon",
+    "Treats:": "Blood Clotting",
+    "Type": "Tablet",
+    "Recovery (Secs)": 240,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Diclofenac",
+    "Treats:": "Cold 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1100,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Enterofuril",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 250,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Epinephrine [Inject]",
+    "Treats:": "Stam Consump: 0.1x\nStam Regen: 2.5x\nShock Recov/Sec: 0.2",
+    "Type": "Injector",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.5,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Epinephrine 0.5",
+    "Treats:": "Stam Consump: 0.5x\nStam Regen: 1.5x\nShock Recov/Sec: 0.016",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 900,
+    "Overdose": 0.2,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Epinephrine 1.0",
+    "Treats:": "Stam Consump: 0.25x\nStam Regen: 2x\nShock Recov/Sec: 0.033",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Epinephrine 3.0",
+    "Treats:": "Stam Consump: 0.1x\nStam Regen: 2.5x\nShock Recov/Sec: 0.2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.6,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Ersefuril",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 400,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Erythomicyn",
+    "Treats:": "Cold 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1000,
+    "Overdose": 0.45,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Erythropietin [Amp]",
+    "Treats:": "Blood Regen / Blood Clotting",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 900,
+    "Overdose": 0.5,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Erythropietin [Inject]",
+    "Treats:": "Blood Regen / Blood Clotting",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 900,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Etamsilat",
+    "Treats:": "Blood Clotting",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1400,
+    "Overdose": 0.5,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Finalgon",
+    "Treats:": "Hematoma",
+    "Type": "Salve",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.01,
+    "Exp Gain": 0
+  },
+  {
+    "Substance": "Flemoklav",
+    "Treats:": "Cold 3 / Sepsis",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1200,
+    "Overdose": 0.45,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Grimipenem",
+    "Treats:": "Cold 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 500,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Heferol",
+    "Treats:": "Blood Regen",
+    "Type": "Tablet",
+    "Recovery (Secs)": 220,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Heptral",
+    "Treats:": "Food Poison 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1200,
+    "Overdose": 0.3,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Hexobarbital",
+    "Treats:": "Pain 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Ibuprofen",
+    "Treats:": "Pain 1 / Cold 2",
+    "Type": "Tablet",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Imipenem",
+    "Treats:": "Cold 3 / Sepsis",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1200,
+    "Overdose": 0.55,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Irinex",
+    "Treats:": "Pain 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Irovit",
+    "Treats:": "Blood Regen",
+    "Type": "Tablet",
+    "Recovery (Secs)": 120,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Karbopekt",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.05,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Ketamine",
+    "Treats:": "Pain 3",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Keterol [Inject]",
+    "Treats:": "Pain 1 / Cold 2 / Food Poison 2",
+    "Type": "Injector",
+    "Recovery (Secs)": 1800,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Ketoprofen",
+    "Treats:": "Pain 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1800,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Ketorol [Amp]",
+    "Treats:": "Pain 1 / Cold 2 / Food Poison 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1200,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Maltofer",
+    "Treats:": "Blood Regen",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 900,
+    "Overdose": 0.3,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Mesalazine",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 380,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Metoclopamide",
+    "Treats:": "Food Poison 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Metralindol",
+    "Treats:": "Sanity 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Mexamine",
+    "Treats:": "Radiation Sickness 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.6,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Mexidol",
+    "Treats:": "Concussion",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 400,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Mezim Forte",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 120,
+    "Overdose": 0.05,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Movalis",
+    "Treats:": "Pain 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Neurox [Amp]",
+    "Treats:": "Concussion",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 0,
+    "Overdose": 0.5,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Neurox [Inject]",
+    "Treats:": "Concussion",
+    "Type": "Injector",
+    "Recovery (Secs)": 0,
+    "Overdose": 0.5,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Nifuroxazide",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.05,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Nimesil",
+    "Treats:": "Pain 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 1300,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Nimesulid",
+    "Treats:": "Pain 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1600,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Nise",
+    "Treats:": "Pain 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 1400,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Nonakog Alpha",
+    "Treats:": "Blood Clotting",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.3,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Noopept",
+    "Treats:": "Pain 1 / Concussion",
+    "Type": "Tablet",
+    "Recovery (Secs)": 60,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Novocain",
+    "Treats:": "Pain 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1500,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Nurofen",
+    "Treats:": "Pain 1 / Cold 2",
+    "Type": "Tablet",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Oxacillin",
+    "Treats:": "Cold 3 / Sepsis",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.5,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Paclitaxel-Ebeve",
+    "Treats:": "Hematoma",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 900,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Paracetamol",
+    "Treats:": "Pain 1 / Cold 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 200,
+    "Overdose": 0.15,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Pentacin",
+    "Treats:": "Radiation Sickness 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.6,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Pentalgin",
+    "Treats:": "Pain 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Perftoran",
+    "Treats:": "Blood Regen",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.3,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Phthalazole",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 250,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Piperacillin",
+    "Treats:": "Cold 2",
+    "Type": "Tablet",
+    "Recovery (Secs)": 1100,
+    "Overdose": 0.25,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Polysorb",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Potassium Iodide",
+    "Treats:": "Radiation Sickness 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 90,
+    "Overdose": 0.3,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Potassium-Iron Hexacyanoferrate",
+    "Treats:": "Radiation Sickness 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 60,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Promedol",
+    "Treats:": "Pain 3",
+    "Type": "Injector",
+    "Recovery (Secs)": 1800,
+    "Overdose": 1.8,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Propanidid",
+    "Treats:": "Pain 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 400,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Propofol",
+    "Treats:": "Pain 3",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Radioprotector",
+    "Treats:": "Radiation Sickness 2",
+    "Type": "Injector",
+    "Recovery (Secs)": 350,
+    "Overdose": 0.7,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Salofalk",
+    "Treats:": "Food Poison 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 250,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Sodium Oxybate",
+    "Treats:": "Pain 3",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 1200,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Sorbifer Durulis",
+    "Treats:": "Blood Regen / Blood Clotting",
+    "Type": "Tablet",
+    "Recovery (Secs)": 300,
+    "Overdose": 0.15,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Tardiferon",
+    "Treats:": "Blood Regen",
+    "Type": "Tablet",
+    "Recovery (Secs)": 180,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Tetracycline",
+    "Treats:": "Cold 2",
+    "Type": "Tablet",
+    "Recovery (Secs)": 900,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Thiopental",
+    "Treats:": "Pain 3",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 600,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Topoisomerase I",
+    "Treats:": "Sepsis",
+    "Type": "Injector",
+    "Recovery (Secs)": 0,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Trichopoli",
+    "Treats:": "Cold 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 400,
+    "Overdose": 0.15,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Tsiprolet",
+    "Treats:": "Cold 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 500,
+    "Overdose": 0.15,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Venlafaxine",
+    "Treats:": "Sanity 1",
+    "Type": "Tablet",
+    "Recovery (Secs)": 90,
+    "Overdose": 0.2,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Vikasol [Amp]",
+    "Treats:": "Blood Clotting",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.4,
+    "Exp Gain": 1200
+  },
+  {
+    "Substance": "Vikasol [Tab]",
+    "Treats:": "Blood Clotting",
+    "Type": "Tablet",
+    "Recovery (Secs)": 180,
+    "Overdose": 0.1,
+    "Exp Gain": 240
+  },
+  {
+    "Substance": "Viprosal",
+    "Treats:": "Hematoma",
+    "Type": "Salve",
+    "Recovery (Secs)": 400,
+    "Overdose": 0.01,
+    "Exp Gain": 0
+  },
+  {
+    "Substance": "Zerukal",
+    "Treats:": "Food Poison 2",
+    "Type": "Ampoule",
+    "Recovery (Secs)": 800,
+    "Overdose": 0.25,
+    "Exp Gain": 1200
+  }
+]
