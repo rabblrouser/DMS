@@ -400,7 +400,7 @@
     "expGain": 1200
   },
   {
-    "name": "Keterol [Inject]",
+    "name": "Ketorol [Inject]",
     "treats": "Pain 1 / Cold 2 / Food Poison 2",
     "type": "Injector",
     "duration": 1800,
