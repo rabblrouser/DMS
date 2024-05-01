@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syberia Medication Lookup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/dms.css">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/site.webmanifest">
+</head>
+<body>
+<div class="container">
+  <div class="logo"></div>
+  <h2 class="h2Main">Type medication name or symptom below:</h2>
+  <input class="searchForm" type="text" id="searchInput" placeholder="Search...">
+  <div id="results"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const resultsDiv = document.getElementById('results');
+
+  searchInput.addEventListener('input', function() {
+    console.log('Input event triggered');
+    const searchTerm = this.value.trim().toLowerCase();
+
+    if (searchTerm.length === 0) {
+      resultsDiv.innerHTML = '';
+      return;
+    }
+
+    axios.get('https://raw.githubusercontent.com/rabblrouser/SML/main/dayz_meds.json')
+      .then(response => {
+        console.log('Data:', response.data);
+        const meds = response.data;
+
+        if (!Array.isArray(meds)) {
+          console.error('Data is not in expected format');
+          return;
+        }
+
+        const filteredMeds = meds.filter(med => {
+          console.log('Med:', med);
+          return med && med.name && med.name.toLowerCase().includes(searchTerm);
+        });
+
+        const filteredUses = meds.filter(med => {
+          console.log('Med:', med);
+          return med && med.treats && med.treats.toLowerCase().includes(searchTerm);
+        });
+
+        console.log('Filtered Meds:', filteredMeds);
+
+        const html = filteredMeds.map(med => {
+          return `<div>
+            <strong>Name:</strong> ${med.name}<br>
+            <strong>Type:</strong> ${med.type}<br>
+            <strong>Uses:</strong> ${med.treats}<br>
+            <strong>Duration:</strong> ${med.duration}<br>
+            <strong>Overdose:</strong> ${med.Overdose}<br>
+            <strong>Exp:</strong> ${med.expGain}<br>
+            <br>
+            </div>`;
+        }).join('');
+
+        const html2 = filteredUses.map(med => {
+          return `<div>
+            <strong>Name:</strong> ${med.name}<br>
+            <strong>Type:</strong> ${med.type}<br>
+            <strong>Uses:</strong> ${med.treats}<br>
+            <strong>Duration:</strong> ${med.duration}<br>
+            <strong>Overdose:</strong> ${med.Overdose}<br>
+            <strong>Exp:</strong> ${med.expGain}<br>
+            <br>
+            </div>`;
+        }).join('');
+
+        resultsDiv.innerHTML = html + html2;
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  });
+</script>
+</body>
+</html>
