@@ -233,7 +233,7 @@
   },
   {
     "name": "Epinephrine [Inject]",
-    "treats": "Stam Consump: 0.1x\nStam Regen: 2.5x\nShock Recov/Sec: 0.2",
+    "treats": "Stamina",
     "type": "Injector",
     "duration": 300,
     "Overdose": 0.5,
@@ -241,7 +241,7 @@
   },
   {
     "name": "Epinephrine 0.5",
-    "treats": "Stam Consump: 0.5x\nStam Regen: 1.5x\nShock Recov/Sec: 0.016",
+    "treats": "Stamina",
     "type": "Ampoule",
     "duration": 900,
     "Overdose": 0.2,
@@ -249,7 +249,7 @@
   },
   {
     "name": "Epinephrine 1.0",
-    "treats": "Stam Consump: 0.25x\nStam Regen: 2x\nShock Recov/Sec: 0.033",
+    "treats": "Stamina",
     "type": "Ampoule",
     "duration": 600,
     "Overdose": 0.4,
@@ -257,7 +257,7 @@
   },
   {
     "name": "Epinephrine 3.0",
-    "treats": "Stam Consump: 0.1x\nStam Regen: 2.5x\nShock Recov/Sec: 0.2",
+    "treats": "Stamina",
     "type": "Ampoule",
     "duration": 300,
     "Overdose": 0.6,
@@ -400,7 +400,7 @@
     "expGain": 1200
   },
   {
-    "name": "Ketorol [Inject]",
+    "name": "Keterol [Inject]",
     "treats": "Pain 1 / Cold 2 / Food Poison 2",
     "type": "Injector",
     "duration": 1800,
@@ -648,14 +648,6 @@
     "expGain": 240
   },
   {
-    "name": "Potassium-Iron Hexacyanoferrate",
-    "treats": "Radiation Sickness 1",
-    "type": "Tablet",
-    "duration": 60,
-    "Overdose": 0.2,
-    "expGain": 240
-  },
-  {
     "name": "Promedol",
     "treats": "Pain 3",
     "type": "Injector",
@@ -800,4 +792,3 @@
     "expGain": 1200
   }
 ]
-
